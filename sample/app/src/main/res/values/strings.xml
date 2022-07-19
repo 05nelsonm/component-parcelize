@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Parcelize Sample</string>
+    <string name="see_logcat">Search for \"MainActivity\"\nin Logcat to see output</string>
+</resources>

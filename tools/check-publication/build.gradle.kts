@@ -38,17 +38,20 @@ kmpConfiguration {
                 buildTools = versions.android.buildTools,
                 compileSdk = versions.android.sdkCompile,
                 minSdk = versions.android.sdkMin16,
+                namespace = "io.matthewnelson.component.tools.check.publication",
             ),
 
             KmpTarget.Jvm.Jvm.DEFAULT,
             KmpTarget.NonJvm.JS.DEFAULT,
         ) +
+        KmpTarget.NonJvm.Native.Android.ALL_DEFAULT             +
         KmpTarget.NonJvm.Native.Unix.Darwin.Ios.ALL_DEFAULT     +
         KmpTarget.NonJvm.Native.Unix.Darwin.Macos.ALL_DEFAULT   +
         KmpTarget.NonJvm.Native.Unix.Darwin.Tvos.ALL_DEFAULT    +
         KmpTarget.NonJvm.Native.Unix.Darwin.Watchos.ALL_DEFAULT +
         KmpTarget.NonJvm.Native.Unix.Linux.ALL_DEFAULT          +
-        KmpTarget.NonJvm.Native.Mingw.ALL_DEFAULT,
+        KmpTarget.NonJvm.Native.Mingw.ALL_DEFAULT               +
+        KmpTarget.NonJvm.Native.Wasm.ALL_DEFAULT,
 
         commonMainSourceSet = {
             dependencies {

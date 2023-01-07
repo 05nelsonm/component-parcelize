@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  **/
+import io.matthewnelson.kotlin.components.kmp.util.configureYarn
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
@@ -38,6 +39,12 @@ allprojects {
         mavenCentral()
         google()
         gradlePluginPortal()
+    }
+}
+
+configureYarn { rootYarn, _ ->
+    rootYarn.apply {
+        lockFileDirectory = project.rootDir.resolve(".kotlin-js-store")
     }
 }
 

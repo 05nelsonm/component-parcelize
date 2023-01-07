@@ -22,6 +22,7 @@ import androidx.appcompat.app.AppCompatActivity
 import io.matthewnelson.component.parcelize.sample.data.MyData
 import io.matthewnelson.component.parcelize.sample.data.SealedValueClass
 
+@Suppress("DEPRECATION")
 class MainActivity: AppCompatActivity(R.layout.activity_main) {
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -24,6 +24,7 @@ plugins {
 android {
     compileSdk = versions.android.sdkCompile
     buildToolsVersion = versions.android.buildTools
+    namespace = "io.matthewnelson.component.parcelize.app"
 
     defaultConfig {
         applicationId = "io.matthewnelson.parcelize.app"

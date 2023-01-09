@@ -31,7 +31,7 @@ A full list of `kotlin-components` projects can be found [HERE](https://kotlin-c
    ```kotlin
    // build.gradle.kts
    dependencies {
-       val vParcelize = "0.1.1"
+       val vParcelize = "0.1.2"
        // If usage is a part of your public api, use `api`; otherwise
        // use `implementation` for internal-only usage.
        api("io.matthewnelson.kotlin-components:parcelize:$vParcelize")
@@ -83,6 +83,7 @@ A full list of `kotlin-components` projects can be found [HERE](https://kotlin-c
 
 | parcelize | kotlin |
 |:---------:|:------:|
+|   0.1.2   | 1.8.0  |
 |   0.1.1   | 1.7.20 |
 |   0.1.0   | 1.6.21 |
 
@@ -108,11 +109,11 @@ $ git pull --recurse-submodules
 ```
 
 <!-- TAG_VERSION -->
-[badge-latest-release]: https://img.shields.io/badge/latest--release-0.1.1-blue.svg?style=flat
+[badge-latest-release]: https://img.shields.io/badge/latest--release-0.1.2-blue.svg?style=flat
 [badge-license]: https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat
 
 <!-- TAG_DEPENDENCIES -->
-[badge-kotlin]: https://img.shields.io/badge/kotlin-1.7.20-blue.svg?logo=kotlin
+[badge-kotlin]: https://img.shields.io/badge/kotlin-1.8.0-blue.svg?logo=kotlin
 
 <!-- TAG_PLATFORMS -->
 [badge-platform-android]: http://img.shields.io/badge/-android-6EDB8D.svg?style=flat

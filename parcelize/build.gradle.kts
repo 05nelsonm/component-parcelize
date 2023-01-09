@@ -43,6 +43,7 @@ kmpConfiguration {
 
             KmpTarget.Jvm.Jvm(kotlinJvmTarget = JavaVersion.VERSION_1_8),
             KmpTarget.NonJvm.JS.DEFAULT,
+            KmpTarget.NonJvm.Native.Unix.Darwin.Watchos.DeviceArm64.DEFAULT,
         ) +
         KmpTarget.NonJvm.Native.Android.ALL_DEFAULT             +
         KmpTarget.NonJvm.Native.Unix.Darwin.Ios.ALL_DEFAULT     +
